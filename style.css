@@ -1,0 +1,1081 @@
+
+* {
+    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+ nav {
+    overflow: hidden;
+    position: fixed;
+    top: 0%;
+    z-index: 99;
+    background-color: #fff;
+    color: black;
+    height: 10vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px;
+}
+
+nav .search{
+    border-radius: 20px;
+    padding: 5px 10px;
+    border: 2px solid aqua;
+}
+
+.search input{
+  font-weight: 500;
+    border: none;
+    /* margin-bottom: 2vmax; */
+    outline: none;
+}
+
+ nav ul {
+    display: flex;
+align-items: center;
+    list-style: none;
+}
+
+ nav ul a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    margin: 0 2vmax;
+    font: 400 .9rem "roboto";
+}
+
+
+ nav ul a:hover {
+    color: rgb(36, 184, 36);
+    text-decoration: underline;
+}
+
+nav .menu {
+    display: none;
+}
+
+
+body {
+    overflow-x: hidden;
+}
+
+/* -----------------------------------------------overlay-container-------------------------------=----------- */
+/* 
+.overlay-container{
+    /* position: absolute; */
+    /* top: 0%; */
+    height: 100vh;
+    width: 100%;
+    background-color: red;
+    /* transform: translateX(90%); */
+} */
+
+
+ 
+
+
+
+
+
+/* -------------------------------------------CONTAINER-0------------------------------------------------- */
+
+#container0 {
+    /* margin-top: 10vh; */
+    /* padding: 0 10vw; */
+    height: 110vh;
+    width: 100vw;
+    /* background-color: rgb(54, 53, 53); */
+}
+
+.container0-top {
+    /* border-top: 2px solid aqua; */
+    height: 40vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #000;
+    background-color: #ffff;
+    /* background-color: rgb(0, 128, 111); */
+}
+
+.container0-top h1 {
+    font: 700 3rem "mukta";
+    /* color: #fff; */
+
+}
+
+.container0-top p {
+    font: 700 1rem "mukta";
+    /* color: #fff; */
+    width: 40%;
+    text-align: center;
+}
+
+.container0-top button {
+    padding: 1vh 2vmax;
+    margin-top: 1vmax;
+    border-radius: 5px;
+}
+
+
+.container0-bottom {
+    padding-top: 2vmax;
+    position: relative;
+    top: 0%;
+    height: 50vh;
+    width: 90vw;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    /* background-color: brown; */
+}
+
+.container0-bottom1 {
+    padding: 80px 20px;
+    border-radius: 20px;
+    position: absolute;
+    z-index: 2;
+    height: 40vh;
+    width: 28vw;
+    background-color: rgb(0, 0, 0, 0.5);
+    transition: 1s ease-out;
+}
+
+
+.container0-bottom1 h2 {
+    font: 500 1.5vmax "roboto";
+    color: #fff;
+    margin-bottom: 1vmax;
+}
+
+.container0-bottom1 p {
+    font: 500 1vmax "pacifico";
+    color: #fff;
+    width: 80%;
+    text-align: center;
+
+}
+
+
+.container0-bottom1:hover {
+    transform: translateY(110%);
+    opacity: 0;
+    /* transform: rotateX(90deg); */
+}
+
+.container0-bottom2 {
+    border-radius: 20px;
+    /* position: absolute; */
+    height: 40vh;
+    width: 28vw;
+    /* background-color: blue; */
+    background-image: url(https://th.bing.com/th/id/R.ae6c4bda24b0ae84db4d04cc914a5948?rik=JTg0M1KtSLX6tg&riu=http%3a%2f%2fwww.shakahariblog.com%2fwp-content%2fuploads%2f2015%2f10%2f4-Foods-That-Make-Us-To-Feel-More-Hungry-1024x679.jpg&ehk=sJNePzVAnKmkG%2f%2bxY0bhK2kg04WzKLkIC45wc%2fLL7Eg%3d&risl=&pid=ImgRaw&r=0);
+    background-repeat: no-repeat;
+    /* opacity: .7; */
+    background-position: center;
+    background-size: cover;
+}
+
+
+
+.container0-bottom2 h1 {
+    padding: 20px;
+    font: 700 2vmax "mukta";
+    /* color: #fff; */
+
+}
+
+.btm3-parent {
+    margin-left: 2vmax;
+    position: relative;
+    height: 40vh;
+    width: 28vw;
+}
+
+
+.container0-bottom3 {
+    color: #fff;
+    position: absolute;
+    padding: 80px 20px;
+    border-radius: 20px;
+    /* position: absolute; */
+    z-index: 2;
+    height: 40vh;
+    width: 28vw;
+    background-color: rgb(0, 0, 0, 0.5);
+    transition: 1s linear;
+}
+
+
+.container0-bottom3 h2 {
+    font: 500 1.5vmax "roboto";
+    color: #fff;
+    margin-bottom: 1vmax;
+}
+
+.container0-bottom3 p {
+    font: 500 1vmax "pacifico";
+    color: #fff;
+    width: 80%;
+    text-align: center;
+
+}
+
+
+
+.container0-bottom3:hover {
+    transform: translateY(110%);
+    opacity: 0;
+    /* transform: rotateX(90deg); */
+}
+
+
+
+
+.container0-bottom4 {
+    border-radius: 20px;
+    position: absolute;
+    height: 40vh;
+    width: 28vw;
+    color: #fff;
+    /* background-color: blue; */
+    background-image: url(https://images8.alphacoders.com/369/369063.jpg);
+    background-repeat: no-repeat;
+    /* opacity: .7; */
+    background-position: center;
+    background-size: cover;
+}
+
+
+.container0-bottom4 h1 {
+    padding: 20px;
+    font: 700 2vmax "mukta";
+    /* color: #fff; */
+}
+
+
+.container0-bottom5 {
+    border-radius: 20px;
+    position: absolute;
+    height: 40vh;
+    width: 28vw;
+    /* color: #fff; */
+    /* background-color: blue; */
+    background-image: url(https://i.ytimg.com/vi/gGOyLziEw2k/maxresdefault.jpg);
+    background-repeat: no-repeat;
+    /* opacity: .7; */
+    background-position: center;
+    background-size: cover;
+}
+
+
+
+.container0-bottom5 h1 {
+    padding: 20px;
+    font: 700 2vmax "mukta";
+    /* color: #fff;   */
+}
+
+/* ----------------------------------------------------------Container-1-------------------------------------------------------------- */
+#container1 {
+    /* border-top: none; */
+    /* border: 2px solid aqua; */
+    margin-top: 10vh;
+    height: 99vh;
+    width: 100vw;
+}
+
+.container1-main {
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: flex-end;
+    align-items: flex-end;
+    overflow: hidden;
+    /* position: relative;    */
+    height: 100vh;
+    width: 100vw;
+    margin: auto;
+    margin-right: auto;
+    /* margin-right: 1vmax; */
+    background-image: url(https://wallpapercave.com/wp/wp1846070.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+}
+
+.container1-main h1 {
+    font: 700 2rem "nuckle";
+    width: 85vw;
+    color: #fff;
+    text-shadow: 3px 5px 5px black;
+    text-align: center;
+    margin: auto;
+    margin-right: 15max;
+    margin-bottom: 5vmax;
+}
+
+.container1-main h1 span {
+    color: #000;
+}
+
+/* ----------------------------------------------------------CONTAINER-2------------------------------------------------------- */
+
+#container2 {
+    /* padding: 0 5vw; */
+    background-image: url(https://th.bing.com/th/id/R.32541639db323003a20d80e73d9c1acc?rik=UZMbc5JX5Qfjcw&riu=http%3a%2f%2fwww.alux.com%2fwp-content%2fuploads%2f2014%2f11%2fBest-Luxury-Hotels-In-Cape-Town-Top-10-Source-easytobook.com_.jpg&ehk=LzQVfBbjuuuDZUao%2bahyGZQGGScKqx%2bxp1d4Fw43SXk%3d&risl=&pid=ImgRaw&r=0);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    width: 100vw;
+    background-color: blueviolet;
+}
+
+#container2 .overlay {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(0, 0, 0, 0.5);
+}
+
+.container2-top {
+    padding: 5vmax 5vmax;
+    height: 90vh;
+    width: 50vw;
+    /* background-color: blue; */
+}
+
+.container2-top h1 {
+    font: 900 2.5rem "losta masta light";
+    color: #fff;
+}
+
+.container2-top p {
+    margin-top: 1vmax;
+    width: 95%;
+    text-align: center;
+    font: 900 1rem "roboto";
+    color: #fff;
+}
+
+
+.container2-top .btn {
+    color: rgb(150, 148, 148);
+    background: transparent;
+    border: 1px solid rgb(30, 213, 30);
+}
+
+.container2-top button {
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 1.4vmax 3vmax;
+    margin-right: 1vmax;
+    margin-top: 2vmax;
+    background-color: rgb(68, 197, 68);
+}
+
+.container {
+    margin-top: 5vmax;
+    margin: 0;
+    padding: 0;
+    /* background-color: aqua; */
+    height: 90vh;
+    width: 30vw;
+    margin-right: 3vmax;
+    margin: auto;
+    /* background-color: #000; */
+    padding-right: 5vmax;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper {
+    position: relative;
+    width: 300px;
+    height: 450px;
+}
+
+.swiper-slide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 18px;
+    font-size: 22px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.swiper-slide .images {
+    background-image: url(https://i0.wp.com/ahappytreat.com/wp-content/uploads/2020/07/DSC_0015_1.jpg?fit=6000%2C4000&ssl=1);
+}
+
+.swiper-slide .images1 {
+    background-image: url(https://www.licious.in/blog/wp-content/uploads/2020/12/Mutton-Curry.jpg);
+}
+
+.swiper-slide .images2 {
+    background-image: url(https://th.bing.com/th/id/OIP.wr_rQpFbqTxSZCb6hP7EJAHaHy?pid=ImgDet&w=511&h=537&rs=1);
+}
+
+.swiper-slide .images3 {
+    background-image: url(https://th.bing.com/th/id/OIP.5R7WMmQrc0ZY6d769-bHrAHaLH?pid=ImgDet&rs=1);
+}
+
+.swiper-slide .images4 {
+
+    background-image: url(https://th.bing.com/th/id/R.a32c54bc8783a4b0a2a0d921e83ed5dd?rik=4qM0FXxJUwTZgA&riu=http%3a%2f%2fwww.blog.sagmart.com%2fwp-content%2fuploads%2f2015%2f08%2fMasala-Egg-Curry-1024x886.jpg&ehk=qMzhSX8OU5TDzsu8alwRjS9LDpZ93m3DakXszCvYgQY%3d&risl=&pid=ImgRaw&r=0);
+}
+
+.swiper-slide .images5 {
+
+    background-image: url(https://th.bing.com/th/id/OIP.nvQLKhIe2FxftywfJQFDxgHaFe?pid=ImgDet&rs=1);
+}
+
+.swiper-slide .images6 {
+    background-image: url(https://www.recipedose.com/wp-content/uploads/2013/03/Chicken-momos.jpg);
+}
+
+.swiper-slide .images7 {
+    background-image: url(https://i0.wp.com/www.cookingfromheart.com/wp-content/uploads/2016/08/Idli-4.jpg?resize=683%2C1024);
+}
+
+.cards {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.cards h1 {
+    font: 500 1.5rem "roboto";
+    color: #000;
+    margin-left: 1vmax;
+    margin-top: 1vmax;
+}
+
+.swiper-slide .images8 {
+    background-image: url(https://i1.wp.com/www.evergreendishes.com/wp-content/uploads/2019/10/Dosa-1.jpg?fit=4288%2C2848&ssl=1);
+}
+
+.swiper-slide .images9 {
+    background-image: url(https://th.bing.com/th/id/OIP.nsRO0D1s6jDn0xxeXgaKMgHaE8?pid=ImgDet&rs=1);
+}
+
+/* ------------------------------------------------------Container-3---------------------------------------------------------- */
+
+
+#container3 {
+    height: 150vh;
+    width: 100vw;
+    /* background-color: blue; */
+}
+
+.container3-child {
+    height: 40vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+
+
+.container3-child h1 {
+    font: 700 2.5rem "mukta";
+
+}
+
+.container3-child p {
+    width: 40%;
+    text-align: center;
+    font: 500 1rem "mukta";
+}
+
+.container3-child button {
+    border-radius: 5px;
+    border: 2px solid aqua;
+    font-weight: 500;
+    background: transparent;
+    margin-top: 1vmax;
+    padding: .7vmax 2.5vmax;
+}
+
+
+.container3-main {
+    display: flex;
+    width: 90vw;
+    height: 100vh;
+    margin: auto;
+    /* background-color: red; */
+}
+
+.container3-left {
+    height: 100vh;
+    width: 60vw;
+    /* background-color: darkgray; */
+}
+
+
+.container3-left-top {
+    margin-top: 1vmax;
+    height: 40vh;
+    width: 60vw;
+    margin: auto;
+    /* background-color: green; */
+    background-image: url(https://wallpapercave.com/wp/wp6957266.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px 100px 10px 150px;
+}
+
+.container3-left-center {
+    display: flex;
+    margin-top: 1vmax;
+    height: 30vh;
+    width: 60vw;
+    /* background-color: aqua; */
+    margin-bottom: 1vmax;
+}
+
+.center-one {
+    height: 30vh;
+    width: 25vw;
+    background-image: url(https://i.content4travel.com/cms/img/u/desktop/se/bcndela_11.jpg?version=2.5.492);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.center-two {
+    height: 30vh;
+    width: 34vw;
+    margin-left: 1vmax;
+    background-image: url(https://t-ec.bstatic.com/images/hotel/max1024x768/158/158155349.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container3-left-bottom {
+    margin-top: 2vmax;
+    height: 25vh;
+    width: 60vw;
+    margin: auto;
+    /* background-color: green; */
+    background-image: url(https://wallpapercave.com/wp/wp6957233.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 100px 10px 100px 10px;
+}
+
+
+.container3-right {
+    padding: 0vmax 0px 0px 4vmax;
+    height: 100vh;
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    /* background-color: green; */
+}
+
+
+.container3-right h1 {
+    margin-top: 1vmax;
+    font: 400 3rem "losta masta light";
+
+}
+
+.container3-right p {
+    margin-top: 1vmax;
+    font: 400 .9rem "roboto";
+}
+
+
+/* -----------------------------------------------------------------Container-4--------------------------------------------------------------- */
+
+#container4 {
+    padding-top: 2.5vmax;
+    height: 110vh;
+    width: 100vw;
+    /* background-color: red; */
+}
+
+
+.container4-main {
+    height: 90vh;
+    width: 90vw;
+    margin: auto;
+    display: flex;
+    /* background-color: green; */
+}
+
+.container4-left {
+
+    height: 90vh;
+    width: 45vw;
+    /* background-color: aqua; */
+    background-image: url(https://www.vegrecipesofindia.com/wp-content/uploads/2020/01/paneer-butter-masala-1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+.container4-right {
+    padding-left: 3vmax;
+    height: 90vh;
+    width: 45vw;
+    /* background-color: aqua; */
+}
+
+.container4-right h1 {
+    font: 700 2.5rem "losta masta light";
+    margin-bottom: 1vmax;
+}
+
+.container4-right p {
+    font: 400 .8rem "roboto";
+    margin-bottom: 1vmax;
+}
+
+.container4-right h2 {
+    font: 600 1.5rem "losta masta light";
+    margin-bottom: .5vmax;
+
+}
+
+.container4-right ul li {
+    font: 400 .8rem "roboto";
+    margin-left: 2vmax;
+    /* margin-bottom: 1vmax; */
+}
+
+/* -----------------------------------------------------------Container-5---------------------------------------------------------- */
+
+#container5 {
+    padding-top: 2.5vmax;
+    height: 110vh;
+    width: 100vw;
+    /* background-color: red; */
+}
+
+.container5-main {
+    /* background-color: green; */
+    height: 90vh;
+    width: 90vw;
+    margin: auto;
+    display: flex
+}
+
+.container5-left {
+    padding-right: 3vmax;
+    height: 90vh;
+    width: 45vw;
+    background-color: #fff;
+}
+
+
+.container5-left h1 {
+    font: 700 2.5rem "losta masta light";
+    margin-bottom: 1vmax;
+}
+
+.container5-left p {
+    font: 400 .8rem "roboto";
+    margin-bottom: 1vmax;
+}
+
+.container5-left h2 {
+    font: 600 1.5rem "losta masta light";
+    margin-bottom: .5vmax;
+
+}
+
+.container5-left li {
+    list-style: none;
+    font: 400 .8rem "roboto";
+    margin-bottom: .5vmax;
+    /* margin-left: 2vmax; */
+    /* margin-bottom: 1vmax; */
+}
+
+
+.container5-right {
+    height: 90vh;
+    width: 45vw;
+    /* background-color: aqua; */
+    background-image: url(https://www.crazymasalafood.com/wp-content/images/handi-chicken.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* ------------------------------------------------------------CONTAINER-FIVE------------------------------------------------------------- */
+
+
+.container-five {
+    margin-top: 5vmax;
+    height: 120vh;
+    width: 100vw;
+    /* background-color: grey; */
+}
+
+.container-five-main {
+    height: 120vh;
+    width: 75vw;
+    margin: auto;
+    /* background-color: green; */
+}
+
+.container-five-box {
+    display: flex;
+    align-items: flex-start;
+    height: 40vh;
+    width: 75vw;
+    /* background-color: red; */
+}
+
+.one-box {
+    border: .5px solid rgb(231, 229, 229);
+    border-radius: 10px;
+    margin-right: 1.5vmax;
+    height: 37vh;
+    width: 24vw;
+    background-color: #fff;
+}
+
+
+.one-box:hover {
+    transform: scale(1.05);
+}
+
+.one-box h1 {
+    padding: 10px 0px 5px 10px;
+    font: 400 1.1rem "roboto";
+
+}
+
+
+.one-box p {
+    margin: 0px 0px 10px 10px;
+    font: 300 1rem "mukta";
+
+}
+
+
+.image-box {
+    /* border-radius: 10px; */
+    position: relative;
+    height: 25vh;
+    width: 24vw;
+}
+
+.image-box img {
+    border-start-start-radius: 10px;
+    border-top-right-radius: 10px;
+    object-fit: cover;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+
+
+.container-five-bottom {
+    margin-top: 5vmax;
+    height: 50vh;
+    width: 75vw;
+    /* background-color: aqua; */
+}
+
+.bottom-main h1 {
+    font: 400 2rem "roboto";
+
+}
+
+.bottom-main {
+    margin-bottom: 1vmax;
+}
+
+
+.bottom-main p {
+    font: 300 1rem "roboto";
+    margin-bottom: 1vmax;
+}
+
+.bottom-box {
+    display: flex;
+    height: 50vh;
+    width: 75vw;
+    /* background-color: blue; */
+}
+
+.bottom-box-one {
+    margin-right: 1vmax;
+    border-radius: 7px;
+    margin-top: 1vmax;
+    height: 45vh;
+    width: 18vw;
+    /* background-color: brown; */
+}
+
+.bottom-box-image {
+    border-radius: 5px;
+    /* position: relative; */
+    background-image: url(e5bf9af49aff07b0b0e99aa09113541d_1528720123.webp);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 47vh;
+    color: #fff;
+    width: 18vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: ;
+    /* align-items: flex-end; */
+    justify-content: flex-end;
+}
+
+
+
+.bottom-box-image1 {
+    border-radius: 5px;
+    /* position: relative; */
+    background-image: url(ac5ed5f18d3632a65f2848872aad3f98_1619176684.webp);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 47vh;
+    color: #fff;
+    width: 18vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: ;
+    /* align-items: flex-end; */
+    justify-content: flex-end;
+}
+
+
+
+
+.bottom-box-image3 {
+    border-radius: 5px;
+    /* position: relative; */
+    background-image: url(third.webp);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 47vh;
+    color: #fff;
+    width: 18vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: ;
+    /* align-items: flex-end; */
+    justify-content: flex-end;
+}
+
+
+.bottom-box-image4 {
+    border-radius: 5px;
+    /* position: relative; */
+    background-image: url(fourth.webp);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 47vh;
+    color: #fff;
+    width: 17.5vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: ;
+    /* align-items: flex-end; */
+    justify-content: flex-end;
+}
+
+.bottom-box-image h3{
+font: 400 1rem "roboto";
+margin-left: 1vmax;
+}
+
+
+
+.bottom-box-image3 h3{
+    font: 400 1rem "roboto";
+    margin-left: 1vmax;
+    }
+
+    
+
+.bottom-box-image4 h3{
+    font: 400 1rem "roboto";
+    margin-left: 1vmax;
+    }
+    
+
+.bottom-box-image1 h3{
+    font: 400 1rem "roboto";
+    margin-left: 1vmax;
+    }
+
+
+.arrow{
+    /* margin-left: 1vmax;
+    margin-bottom: .5vmax; */
+    margin: .5vmax 0 .5vmax 1vmax  ;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+
+/* -----------------------------------------------------------------Container-6--------------------------------------------------- */
+
+
+#container6 {
+    padding: 5vmax 5vmax;
+    height: 93vh;
+    width: 100vw;
+    background-color: #000;
+}
+
+.container6-main {
+    /* justify-content: s; */
+    height: 10vh;
+    width: 90vw;
+    display: flex;
+    color: #fff;
+    align-items: center;
+    /* background-color: red; */
+}
+
+.container6-main p {
+    font: 400 1rem "roboto";
+}
+
+.container6-main input {
+    height: 3.5vmax;
+    padding: 10px;
+    width: 25vmax;
+    border-radius: 5px;
+    margin-right: 1vmax;
+    margin-left: 10vmax;
+    border: none;
+}
+
+
+.container6-main button {
+    height: 3.5vmax;
+    padding: 10px;
+    width: 10vmax;
+    border-radius: 5px;
+    border: none;
+}
+
+.line {
+    height: 1px;
+    width: 90vw;
+    margin-top: 3vmax;
+    color: #fff;
+    background-color: rgb(217, 215, 215);
+}
+
+.container6-top {
+    display: flex;
+    align-items: center;
+
+    margin-top: 2vmax;
+    height: 10vh;
+    width: 90vw;
+    /* background-color: red; */
+}
+
+
+.container6-top i {
+    padding: .5vmax;
+    font-size: 1.3rem;
+    border-radius: 50%;
+    background-color: #fff;
+    margin-right: 1vmax;
+}
+
+.container6-top i:hover {
+    background-color: rgb(170, 169, 169);
+
+}
+
+.container6-bottom {
+    justify-content: space-between;
+    /* align-items: center; */
+    display: flex;
+    height: 40vh;
+    width: 90vw;
+    color: #fff;
+    /* background-color: red; */
+}
+
+
+.container6-bottom h5 {
+    margin-top: 2vmax;
+}
+
+
+.container6-bottom li {
+    font: 500 .8rem "roboto";
+    margin-bottom: .5vmax;
+    list-style: none;
+}
+
+.container6-bottom li:hover {
+    color: rgb(180, 177, 177);
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    width: 90vw;
+    /* background-color: red; */
+    color: #fff;
+}
+
+.footer h1 {
+    margin-bottom: 1vmax;
+    font: 700 1.2rem "roboto";
+}
+
+.footer p {
+    font: 400 .8rem "roboto";
+}
+

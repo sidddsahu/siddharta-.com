@@ -63,7 +63,7 @@ gsap.from(".container-five .bottom-box-one",{
   scrollTrigger:{
     trigger:".bottom-box-one",
     scroller:"#main",
-    start:"top 10%"
+    
    
   },
   x:800,
@@ -78,7 +78,7 @@ gsap.from("#container0",{
   scrollTrigger:{
     trigger:"#container0",
     scroller:"#main",
-    start:"top 80%"   
+    
   },
   scale:0,
   opacity:0, 
@@ -119,9 +119,6 @@ gsap.from(".container3-child h1",{
   },
   scale:0,
   opacity:0,
-  scrub:1,
-  duration:1
-
 })
 
 
@@ -132,8 +129,8 @@ gsap.from(".container3-child p",{
   },
    scale:0,
   opacity:0,
-  scrub:1,
-  duration:1
+  
+ 
 
 })
 
@@ -151,9 +148,6 @@ gsap.from(".container3-child button",{
   // y:-800,
   scale:0,
   opacity:0,
-  scrub:1,
-  duration:1
-
 })
 
 
@@ -168,9 +162,6 @@ gsap.from("#container3 .container3-left",{
   x:-800,
   scale:0,
   opacity:0,
-  scrub:1,
-  duration:1
-
 })
 
 
@@ -184,9 +175,7 @@ gsap.from("#container3 .container3-right",{
   x:800,
   scale:0,
   opacity:0,
-  scrub:1,
-  duration:1
-
+  
 })
 
 
@@ -200,9 +189,7 @@ gsap.from("#container4",{
   x:800,
   scale:0,
   opacity:0,
-  scrub:1,
-  duration:1
-
+ 
 })
 
 gsap.from("#container5",{
@@ -213,9 +200,6 @@ gsap.from("#container5",{
   x:-800,
   scale:0,
   opacity:0,
-  scrub:1,
-  duration:1
-
 })
 
 gsap.from("#container6",{
@@ -226,8 +210,6 @@ gsap.from("#container6",{
   // y:800,
   scale:0,
   opacity:0,
-  // scrub:1,
-  // duration:1
 
 })
 

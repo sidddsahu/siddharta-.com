@@ -114,7 +114,7 @@ body {
 }
 
 .container0-top h1 {
-    font: 700 3rem "mukta";
+    font: 700 4rem "mukta";
     /* color: #fff; */
 
 }
@@ -122,7 +122,7 @@ body {
 .container0-top p {
     font: 700 1rem "mukta";
     /* color: #fff; */
-    width: 40%;
+    width: 35%;
     text-align: center;
 }
 
@@ -363,7 +363,7 @@ body {
 }
 
 .container2-top h1 {
-    font: 900 2.5rem "losta masta light";
+    font: 900 3.5rem "losta masta light";
     color: #fff;
 }
 
@@ -371,7 +371,7 @@ body {
     margin-top: 1vmax;
     width: 95%;
     text-align: center;
-    font: 900 1rem "roboto";
+    font: 500 1.2rem "roboto";
     color: #fff;
 }
 
@@ -383,6 +383,7 @@ body {
 }
 
 .container2-top button {
+    font-weight: 500;
     color: #fff;
     border: none;
     border-radius: 5px;
@@ -510,7 +511,7 @@ body {
 }
 
 .container3-child p {
-    width: 40%;
+    width: 30%;
     text-align: center;
     font: 500 1rem "mukta";
 }
@@ -609,13 +610,13 @@ body {
 
 .container3-right h1 {
     margin-top: 1vmax;
-    font: 400 3rem "losta masta light";
+    font: 400 4rem "losta masta light";
 
 }
 
 .container3-right p {
     margin-top: 1vmax;
-    font: 400 .9rem "roboto";
+    font: 400 1.2rem "roboto";
 }
 
 
@@ -658,12 +659,12 @@ body {
 }
 
 .container4-right h1 {
-    font: 700 2.5rem "losta masta light";
+    font: 700 3rem "losta masta light";
     margin-bottom: 1vmax;
 }
 
 .container4-right p {
-    font: 400 .8rem "roboto";
+    font: 400 1rem "roboto";
     margin-bottom: 1vmax;
 }
 
@@ -674,7 +675,7 @@ body {
 }
 
 .container4-right ul li {
-    font: 400 .8rem "roboto";
+    font: 400 .9rem "roboto";
     margin-left: 2vmax;
     /* margin-bottom: 1vmax; */
 }
@@ -705,24 +706,24 @@ body {
 
 
 .container5-left h1 {
-    font: 700 2.5rem "losta masta light";
+    font: 700 3rem "losta masta light";
     margin-bottom: 1vmax;
 }
 
 .container5-left p {
-    font: 400 .8rem "roboto";
+    font: 400 1rem "roboto";
     margin-bottom: 1vmax;
 }
 
 .container5-left h2 {
-    font: 600 1.5rem "losta masta light";
+    font: 600 2rem "losta masta light";
     margin-bottom: .5vmax;
 
 }
 
 .container5-left li {
     list-style: none;
-    font: 400 .8rem "roboto";
+    font: 400 .9rem "roboto";
     margin-bottom: .5vmax;
     /* margin-left: 2vmax; */
     /* margin-bottom: 1vmax; */

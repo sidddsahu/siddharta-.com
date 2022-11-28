@@ -74,15 +74,15 @@ gsap.from(".container-five .bottom-box-one",{
 
 
 
-gsap.from("#container0",{
-  scrollTrigger:{
-    trigger:"#container0",
-    scroller:"#main",
+// gsap.from("#container0",{
+//   scrollTrigger:{
+//     trigger:"#container0",
+//     scroller:"#main",
     
-  },
-  scale:0,
-  opacity:0, 
-})
+//   },
+//   scale:0,
+//   opacity:0, 
+// })
 
 
 

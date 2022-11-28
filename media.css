@@ -278,7 +278,10 @@ width: 90vw;
 .container2-top p {
     margin-top: 2vmax;
     width: 100%;
+    font: 500 1rem "roboto";
 }
+
+
 
 
 .container2-top button {
@@ -357,8 +360,12 @@ width: 90vw;
     padding: 0vmax 2vmax;
     /* padding-top: 50vh; */
     height: 80vh;
-    width: 100vw;
+    width: 100vw; 
     /* background-color: blue; */
+}
+
+.container3-right h1 {
+     font: 400 3rem "losta masta light";
 }
 
 #container4 {
@@ -383,12 +390,19 @@ width: 90vw;
     width: 90vw;
 }
 
+.container4-right h1 {
+    font: 700 2rem "losta masta light";
+
+}
 
 #container5 {
     height: 150vh;
 }
 
+.container5-left h1 {
+    font: 700 2.5rem "losta masta light";
 
+}
 .container5-main {
     height: 150vh;
     flex-direction: column;
